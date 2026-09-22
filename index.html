@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SizeDrop | Image Compressor & PDF Compressor Online</title>
+  <meta name="description" content="Compress JPG, PNG, WebP images and PDF files online. Reduce file size while maintaining quality with SizeDrop.">
+  <meta name="keywords" content="image compressor, compress JPG, compress PNG, compress WebP, PDF compressor, compress PDF online, reduce image size, reduce PDF size, online file compressor, compress JPG online, compress PNG online, compress WebP online, reduce PDF size online">
+  <meta name="author" content="SizeDrop">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://sizedrop.netlify.app/">
+  <meta property="og:title" content="SizeDrop | Image Compressor & PDF Compressor Online">
+  <meta property="og:description" content="Compress JPG, PNG, WebP images and PDF files online. Reduce file size while maintaining quality with SizeDrop.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sizedrop.netlify.app/">
+  <meta property="og:image" content="https://sizedrop.netlify.app/og-image.svg">
+  <meta property="og:image:alt" content="SizeDrop logo and file compression illustration">
+  <meta property="og:site_name" content="SizeDrop">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SizeDrop | Image Compressor & PDF Compressor Online">
+  <meta name="twitter:description" content="Compress JPG, PNG, WebP images and PDF files online. Reduce file size while maintaining quality with SizeDrop.">
+  <meta name="twitter:image" content="https://sizedrop.netlify.app/og-image.svg">
+  <meta name="theme-color" content="#111827">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebApplication",
+    "name":"SizeDrop",
+    "applicationCategory":"UtilitiesApplication",
+    "operatingSystem":"Any",
+    "description":"Online image compressor and PDF compressor for JPG, PNG, WebP, and PDF files.",
+    "url":"https://sizedrop.netlify.app/",
+    "featureList":[
+      "Compress JPG online",
+      "Compress PNG online",
+      "Compress WebP online",
+      "Compress PDF online",
+      "Reduce image size",
+      "Reduce PDF size"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"What is an image compressor?","acceptedAnswer":{"@type":"Answer","text":"An image compressor reduces the file size of JPG, PNG, or WebP images while keeping the visual quality as high as possible for web, email, and sharing use."}},
+      {"@type":"Question","name":"How do I compress JPG files online?","acceptedAnswer":{"@type":"Answer","text":"Upload your JPG file to SizeDrop, choose a quality setting, and download the compressed JPG file directly in your browser."}},
+      {"@type":"Question","name":"Can I compress PNG files online?","acceptedAnswer":{"@type":"Answer","text":"Yes. SizeDrop supports PNG compression and lets you reduce the image dimensions and quality before downloading the optimized file."}},
+      {"@type":"Question","name":"Can I compress WebP images and PDF files?","acceptedAnswer":{"@type":"Answer","text":"Yes. SizeDrop supports WebP image compression and PDF compression for scanned or image-heavy files that can be rebuilt at a lower quality setting."}},
+      {"@type":"Question","name":"How do I reduce PDF size online?","acceptedAnswer":{"@type":"Answer","text":"Upload a PDF to SizeDrop, choose a compression setting, and the app rebuilds the file in the browser to reduce the PDF size while keeping its content usable."}},
+      {"@type":"Question","name":"Is SizeDrop a free online file compressor?","acceptedAnswer":{"@type":"Answer","text":"Yes. SizeDrop is designed as a simple browser-based file compressor that runs locally on your device without requiring an account."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home"><span class="brand-mark">S</span> SizeDrop</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="navLinks">
+      <a href="#compressor">Compressor</a><a href="#features">Features</a><a href="#how">How it works</a><a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#compressor">Compress File</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">FREE • BROWSER-BASED • NO ACCOUNT</span>
+      <h1 id="hero-title">Compress JPG, PNG, WebP & PDF files online</h1>
+      <p class="hero-copy">Reduce image size and PDF size quickly with a simple online file compressor designed for phones, laptops, and slower connections.</p>
+      <div class="hero-actions"><a class="btn primary" href="#compressor">Compress a file</a><a class="btn secondary" href="#how">How it works</a></div>
+      <div class="trust-row" aria-label="Supported file types"><span>✓ JPG</span><span>✓ PNG</span><span>✓ WebP</span><span>✓ PDF</span></div>
+    </div>
+    <div class="hero-card" aria-label="Compression result preview">
+      <div class="mini-top"><span class="dot"></span><span>Local processing</span><span class="shield" aria-hidden="true">🔒</span></div>
+      <div class="fake-file"><div class="file-icon">IMG</div><div><b>holiday-photo.jpg</b><small>4.82 MB</small></div><span class="arrow" aria-hidden="true">→</span><div class="file-icon small">IMG</div><div><b>compressed.jpg</b><small>1.14 MB</small></div></div>
+      <div class="save-pill">76.3% smaller</div>
+      <div class="fake-bar"><i></i></div>
+    </div>
+  </div>
+</section>
+
+<section id="compressor" class="tool-section" aria-labelledby="compressor-title">
+<div class="container">
+  <div class="section-heading"><span class="eyebrow">FILE COMPRESSOR</span><h2 id="compressor-title">Drop a file and start reducing size</h2><p>Compress JPG, PNG, WebP, and PDF files directly in your browser without uploading them to a server.</p></div>
+  <div class="tool-card">
+    <div id="dropzone" class="dropzone" tabindex="0" role="button" aria-label="Choose a file to compress">
+      <div class="upload-icon" aria-hidden="true">↑</div><h3>Drop your file here</h3><p>or <label for="fileInput">browse your device</label></p><small>JPG, PNG, WebP or PDF • up to 50 MB</small>
+      <input id="fileInput" type="file" accept=".jpg,.jpeg,.png,.webp,.pdf,image/jpeg,image/png,image/webp,application/pdf" hidden>
+    </div>
+    <div id="workspace" class="workspace hidden">
+      <div class="file-summary"><div><b id="fileName"></b><span id="fileMeta"></span></div><button class="text-btn" id="removeBtn">Remove</button></div>
+      <div id="imagePreviewWrap" class="preview-wrap hidden"><img id="imagePreview" alt="Preview of the selected JPG, PNG, WebP, or PDF file before compression"></div>
+      <div id="settings" class="settings">
+        <div class="setting"><label>Quality <strong id="qualityValue">75%</strong></label><input id="quality" type="range" min="20" max="95" value="75"></div>
+        <div class="setting"><label>Target size</label><select id="targetSize"><option value="0">No target</option><option value="500000">500 KB</option><option value="1000000">1 MB</option><option value="2000000">2 MB</option><option value="5000000">5 MB</option></select><input id="customTargetSize" type="number" min="1" step="1000" placeholder="Custom KB" aria-label="Custom target size in kilobytes"></div>
+        <div class="setting"><label>Maximum width</label><select id="maxWidth"><option value="0">Keep original</option><option value="2560">2560 px</option><option value="1920" selected>1920 px</option><option value="1280">1280 px</option><option value="1024">1024 px</option></select></div>
+      </div>
+      <div id="pdfInfo" class="notice hidden">PDF mode rebuilds each page as a compressed image. This works especially well for scanned or image-heavy PDFs; text/vector PDFs may not become smaller.</div>
+      <button class="btn primary full" id="compressBtn">Compress file</button>
+      <div id="progressBox" class="hidden"><div class="progress-label"><span id="progressText">Preparing…</span><span id="progressPercent">0%</span></div><div class="progress"><i id="progressBar"></i></div></div>
+    </div>
+    <div id="result" class="result hidden" aria-live="polite">
+      <div class="success">✓ Compression complete</div>
+      <div class="size-grid"><div><small>Original</small><strong id="beforeSize">—</strong></div><div><small>Compressed</small><strong id="afterSize">—</strong></div><div><small>Saved</small><strong id="savedSize">—</strong></div></div>
+      <div id="resultMessage" class="result-message"></div>
+      <a id="downloadBtn" class="btn primary full" download>Download compressed file</a>
+      <button id="againBtn" class="btn secondary full">Compress another file</button>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="features" class="section" aria-labelledby="features-title">
+<div class="container"><div class="section-heading"><span class="eyebrow">FEATURES</span><h2 id="features-title">Simple tools for reducing file size</h2></div>
+<div class="feature-grid">
+  <article><span>⚡</span><h3>Fast compression</h3><p>Use local browser processing for quick image compression without waiting for uploads.</p></article>
+  <article><span>🖼️</span><h3>Image compressor</h3><p>Adjust quality and maximum dimensions for JPG, PNG and WebP files.</p></article>
+  <article><span>📄</span><h3>PDF compressor</h3><p>Rebuild scanned and image-heavy PDFs at a selected quality level.</p></article>
+  <article><span>🔒</span><h3>Privacy focused</h3><p>Images can be processed locally without sending them to a server.</p></article>
+  <article><span>📱</span><h3>Mobile friendly</h3><p>Designed to work on Android phones, tablets and desktop browsers.</p></article>
+</div></div>
+</section>
+
+<section id="how" class="section alt" aria-labelledby="how-title">
+<div class="container"><div class="section-heading"><span class="eyebrow">HOW IT WORKS</span><h2 id="how-title">Three simple steps to reduce file size</h2></div>
+<div class="steps"><div><b>01</b><h3>Upload</h3><p>Select a supported image or PDF.</p></div><div><b>02</b><h3>Compress</h3><p>Choose quality and dimensions, then start.</p></div><div><b>03</b><h3>Download</h3><p>Compare the sizes and save your result.</p></div></div></div>
+</section>
+
+<section class="section" aria-labelledby="privacy-title"><div class="container privacy-callout"><div><span class="eyebrow">PRIVACY FIRST</span><h2 id="privacy-title">Your files should belong to you.</h2><p>This static version processes images in your browser. PDF pages are rendered and rebuilt in the browser too. No user account is required.</p></div><a class="btn secondary" href="privacy.html">Read privacy policy</a></div></section>
+
+<section id="faq" class="section alt" aria-labelledby="faq-title"><div class="container narrow"><div class="section-heading"><span class="eyebrow">FAQ</span><h2 id="faq-title">Frequently asked questions</h2></div>
+<details><summary>Is SizeDrop free?</summary><p>Yes. This browser-based tool is designed for free static hosting and runs locally in your browser.</p></details>
+<details><summary>Are my images uploaded?</summary><p>No. Image compression happens in your browser using JavaScript and the Canvas API, so your files stay on your device.</p></details>
+<details><summary>Can I compress JPG, PNG, and WebP files?</summary><p>Yes. SizeDrop supports JPG, PNG, and WebP image compression with quality and size controls.</p></details>
+<details><summary>Can I compress PDFs online?</summary><p>Yes. The PDF tool renders pages and rebuilds the file with smaller image quality, which is useful for scanned and image-heavy PDFs.</p></details>
+<details><summary>Will every file become smaller?</summary><p>No. Already optimized files can stay the same size or occasionally become larger. The tool shows the actual result after compression.</p></details>
+<details><summary>Is there a file-size limit?</summary><p>The interface is set to 50 MB per file. Very large files can still be limited by the phone or computer's available memory.</p></details>
+</div></section>
+</main>
+
+<footer>
+  <div class="container footer"><div>
+    <a class="brand" href="#home">
+      <span class="brand-mark">S</span> SizeDrop</a>
+      <p>Simple browser-based file compression.</p>
+      <p>Developed with ❤️ by Aryan Bohidar</p> 
+ </div>
+     <div class="footer-links">
+      <a href="https://www.instagram.com/unfav_aryan04">Instagram</a>
+   
+      <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="#faq">FAQ</a>
+        
+      </div><small>© 2026 SizeDrop. All rights reserved.</small>
+      </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.mjs" type="module"></script>
+<script src="app.js"></script>
+</body>
+</html>

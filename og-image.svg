@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CompressX</title>
+  <desc id="desc">CompressX online image and PDF compressor</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="170" cy="170" r="110" fill="rgba(56,189,248,0.12)"/>
+  <circle cx="1000" cy="460" r="160" fill="rgba(34,197,94,0.10)"/>
+  <g transform="translate(90 120)">
+    <rect x="0" y="0" width="250" height="280" rx="26" fill="#111827" stroke="#334155"/>
+    <rect x="32" y="32" width="186" height="30" rx="8" fill="#1e293b"/>
+    <rect x="32" y="86" width="62" height="62" rx="12" fill="url(#accent)" opacity="0.9"/>
+    <rect x="112" y="86" width="90" height="12" rx="6" fill="#e2e8f0" opacity="0.8"/>
+    <rect x="112" y="108" width="68" height="12" rx="6" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="32" y="170" width="168" height="12" rx="6" fill="#e2e8f0" opacity="0.8"/>
+    <rect x="32" y="194" width="140" height="12" rx="6" fill="#e2e8f0" opacity="0.45"/>
+    <rect x="32" y="226" width="186" height="16" rx="8" fill="#1f2937"/>
+    <rect x="32" y="226" width="112" height="16" rx="8" fill="url(#accent)"/>
+  </g>
+  <g transform="translate(430 155)">
+    <text x="0" y="120" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">CompressX</text>
+    <text x="0" y="188" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="38">Image Compressor</text>
+    <text x="0" y="242" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="34">PNG • JPG • WebP • PDF</text>
+    <rect x="0" y="298" width="420" height="58" rx="29" fill="url(#accent)"/>
+    <text x="185" y="338" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Reduce file size</text>
+  </g>
+</svg>
