@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">CompressX</title>
-  <desc id="desc">CompressX online image and PDF compressor</desc>
+  <title id="title">SIZEDROP</title>
+  <desc id="desc">Sizedrop online image and PDF compressor</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#0f172a"/>
@@ -26,7 +26,7 @@
     <rect x="32" y="226" width="112" height="16" rx="8" fill="url(#accent)"/>
   </g>
   <g transform="translate(430 155)">
-    <text x="0" y="120" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">CompressX</text>
+    <text x="0" y="120" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">SIZEDROP</text>
     <text x="0" y="188" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="38">Image Compressor</text>
     <text x="0" y="242" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="34">PNG • JPG • WebP • PDF</text>
     <rect x="0" y="298" width="420" height="58" rx="29" fill="url(#accent)"/>
